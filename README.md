@@ -243,7 +243,7 @@ r2 = r2_score(y_test, y_pred)
 
 ## 5. Visualize Results
 
-### 📈 Predicted vs Actual Prices
+### Predicted vs Actual Prices
 
 This plot compares predicted prices with actual house prices.
 
@@ -254,7 +254,7 @@ This plot compares predicted prices with actual house prices.
 
 ---
 
-### 📉 Residual Plot
+### Residual Plot
 
 Residuals represent the difference between actual and predicted prices.
 
@@ -265,7 +265,7 @@ Residuals represent the difference between actual and predicted prices.
 
 ---
 
-### 📊 Feature Importance
+### Feature Importance
 
 Linear Regression coefficients show how each feature influences the predicted house price.
 
@@ -277,7 +277,7 @@ Linear Regression coefficients show how each feature influences the predicted ho
 
 ---
 
-# 📋 Expected Output
+# Expected Output
 
 After running the notebook, you should see:
 
@@ -306,7 +306,7 @@ You should also generate:
 
 ---
 
-# 📈 Future Improvements
+# Future Improvements
 
 Possible enhancements include:
 
