@@ -7,14 +7,7 @@ A machine learning project that predicts residential house prices using the **Ho
 
 ---
 
-## Updates / Changelog
 
-- 2026-07-08: README updated to reflect the repository's current layout and filenames:
-  - Project structure corrected to match actual files and folders.
-  - Notebooks: `Hourse_Price_Prediction.ipynb` (note spelling in repository).
-  - Dataset files are located in `house-prices-advanced-regression-techniques/`.
-  - `app/` contains `app.py` and configuration files (not the dataset CSVs).
-  - Images list updated to match files in the `images/` folder.
 
 ## Overview
 
@@ -113,7 +106,7 @@ PoolQC          1453
 Alley           1369
 LotFrontage      259
 ```
-
+![Missing Values Analysis](images/missing_values_analysis.png)
 ---
 
 ## 2. Feature Engineering & Preprocessing
@@ -180,7 +173,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=42
 )
 ```
-
+![Feature Selection and Train-Test Split](images/feature_selection_train_test_split.png)
 ---
 
 ## 3. Train the Linear Regression Model
@@ -211,6 +204,8 @@ model.fit(X_train_scaled, y_train)
 
 y_pred = model.predict(X_test_scaled)
 ```
+
+![Linear Regression Training](images/linear_regression_training.png)
 
 ### How It Works
 
