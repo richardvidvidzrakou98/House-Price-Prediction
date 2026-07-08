@@ -3,9 +3,18 @@
 
 A machine learning project that predicts residential house prices using the **House Prices: Advanced Regression Techniques** dataset from Kaggle. This project demonstrates the complete machine learning workflow—from data exploration and preprocessing to model training, evaluation, and visualization—using **Linear Regression**.
 
-![House Price Prediction](images/house-price-prediction.svg)
+![House Price Prediction](images/dataset_overview.png)
 
 ---
+
+## Updates / Changelog
+
+- 2026-07-08: README updated to reflect the repository's current layout and filenames:
+  - Project structure corrected to match actual files and folders.
+  - Notebooks: `Hourse_Price_Prediction.ipynb` (note spelling in repository).
+  - Dataset files are located in `house-prices-advanced-regression-techniques/`.
+  - `app/` contains `app.py` and configuration files (not the dataset CSVs).
+  - Images list updated to match files in the `images/` folder.
 
 ## Overview
 
@@ -21,11 +30,11 @@ Download the dataset from the Kaggle competition:
 
 **House Prices: Advanced Regression Techniques**
 
-Files used:
+Files used (located in the `house-prices-advanced-regression-techniques/` folder):
 
-- `train.csv` – Training dataset
-- `test.csv` – Test dataset
-- `sample_submission.csv` – Submission format
+- `house-prices-advanced-regression-techniques/train.csv` – Training dataset
+- `house-prices-advanced-regression-techniques/test.csv` – Test dataset
+- `house-prices-advanced-regression-techniques/sample_submission.csv` – Submission format
 
 Target Variable:
 
@@ -51,19 +60,28 @@ Target Variable:
 House-Price-Prediction/
 │
 ├── app/
-│   ├── train.csv
-│   ├── test.csv
-│   └── sample_submission.csv
+│   ├── app.py
+│   ├── .agents
+│   └── .claude
 │
-├── house_price_prediction.ipynb
+├── Hourse_Price_Prediction.ipynb
 │
 ├── images/
-│   ├── predicted_vs_actual.png
-│   ├── residual_plot.png
-│   ├── feature_importance.png
-│   └── house-price-prediction.svg
+│   ├── Picture6.png
+│   ├── Picture7.png
+│   ├── data_preprocessing.png
+│   ├── dataset_overview.png
+│   ├── feature_selection_train_test_split.png
+│   ├── linear_regression_training.png
+│   └── missing_values_analysis.png
 │
-├── house-prices-advanced-regression
+├── house-prices-advanced-regression-techniques/
+│   ├── train.csv
+│   ├── test.csv
+│   ├── sample_submission.csv
+│   └── data_description.txt
+│
+├── house-prices-advanced-regression-techniques.zip
 └── README.md
 ```
 
