@@ -1,7 +1,7 @@
 
 # House Price Prediction
 
-A machine learning project that predicts residential house prices using the **House Prices: Advanced Regression Techniques** dataset from Kaggle. This project demonstrates the complete machine learning workflow—from data exploration and preprocessing to model training, evaluation, and visualization—using **Linear Regression**.
+A machine learning project that predicts residential house prices using the **House Prices: Advanced Regression Techniques** dataset from Kaggle. This project demonstrates the complete machine learning workflow,from data exploration and preprocessing to model training, evaluation, and visualization using **Linear Regression**.
 
 ![House Price Prediction](images/dataset_overview.png)
 
@@ -381,28 +381,3 @@ Run all cells to reproduce the results.
 - Matplotlib Documentation
 ```
 
-```xml
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
-  <rect width="100%" height="100%" fill="#f8fafc"/>
-  <rect x="120" y="220" width="220" height="220" rx="12" fill="#3b82f6"/>
-  <rect x="360" y="170" width="220" height="270" rx="12" fill="#60a5fa"/>
-  <rect x="600" y="120" width="240" height="320" rx="12" fill="#2563eb"/>
-  <rect x="860" y="80" width="220" height="360" rx="12" fill="#1d4ed8"/>
-
-  <line x1="100" y1="470" x2="1100" y2="470" stroke="#64748b" stroke-width="4"/>
-
-  <path d="M100 430 C220 380 260 320 340 330 S540 420 620 370 S760 270 860 250 S1040 250 1100 220"
-        stroke="#0f172a" stroke-width="8" fill="none"/>
-
-  <circle cx="340" cy="330" r="12" fill="#0f172a"/>
-  <circle cx="620" cy="370" r="12" fill="#0f172a"/>
-  <circle cx="860" cy="250" r="12" fill="#0f172a"/>
-
-  <text x="600" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#0f172a">
-    House Price Prediction
-  </text>
-
-  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#475569">
-    Linear Regression • Feature Engineering • Visualization
-  </text>
-</svg>
